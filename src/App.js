@@ -7,6 +7,7 @@ import User from './components/User'
 
 import ClickCounterTwo from './components/ClickCounterTwo'
 import HoverCounterTwo from './components/HoverCounterTwo'
+import Counter from './components/Counter'
 
 class App extends Component {
   
@@ -33,8 +34,15 @@ class App extends Component {
         {/* renderProps */  }
         Hello renderProps!
         <hr/>
-        <ClickCounterTwo />
-        <HoverCounterTwo />
+        <Counter render = { (count, incrementCount) =>   
+          <ClickCounterTwo 
+            count = {count}
+            incrementCount= {incrementCount}  /> }/>
+               <Counter render = { (count, incrementCount) =>   
+          <HoverCounterTwo 
+            count = {count}
+            incrementCount= {incrementCount}  /> }/>
+        
         
 
       </div>
