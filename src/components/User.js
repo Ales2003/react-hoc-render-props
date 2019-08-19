@@ -10,7 +10,7 @@ class User extends Component {
 
                 {/* get function and call */}
                 {/* pass params */}
-                {this.props.name(true)}
+                {this.props.render(true)}
             </div> 
         )
     }

@@ -27,7 +27,7 @@ class App extends Component {
         {/* <User name = "Alex"/> */}
 
         {/* pass function */}
-        <User name = {(isLogedIn) => isLogedIn ? "Alex": "Guest"}/>
+        <User render = {(isLogedIn) => isLogedIn ? "Alex": "Guest"}/>
 
         <hr/>
         {/* renderProps */  }
