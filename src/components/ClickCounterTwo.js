@@ -1,5 +1,4 @@
 import React, { Component} from 'react'
-//import withCounter from './withCounter'
 
 class ClickCounterTwo extends Component {
     constructor(props){
