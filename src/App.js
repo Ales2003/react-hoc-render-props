@@ -12,8 +12,8 @@ class App extends Component {
       <div className="App">
         Hello!
         <hr/>
-        <ClickCounter />
-        <HoverCounter />
+        <ClickCounter name="Alex"/>
+        <HoverCounter name="Alex"/>
       </div>
     );
   }
